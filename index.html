@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellonis</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts (optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bellonis Place</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Image Slider -->
+    <section id="home">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                
+                <div class="slide first">
+                    <img src="Image/Beans.png" width="800px" height="600px" alt="Delicious Dish">
+                </div>
+                <div class="slide">
+                    <img src="Image/Spagetti G.png" width="800px" height="600px" alt="Tasty Drink">
+                </div>
+                <div class="slide">
+                    <img src="Image/Jollof Rice.png" width="800px" height="600px" alt="Tasty Drink">
+                </div>
+
+                <!-- Automatic Navigation -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                </div>
+            </div>
+
+            <!-- Manual Navigation -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="grid-container">
+                <!-- Food Item 1 -->
+                <div class="grid-item">
+                    <img src="Image/Beans.png" alt="Dish 1">
+                    <h3>Ewa Agoyin </h3>
+                    <p> ₦500</p>
+                </div>
+                <!-- Food Item 2 -->
+                <div class="grid-item">
+                    <img src="Image/Fried Rice.png" width="800px" height="600px" alt="Dish 2">
+                    <h3>Fried Rice</h3>
+                    <p>₦1,000</p>
+                </div>
+                <!-- Food Item 3 -->
+                <div class="grid-item">
+                    <img src="Image/Jollof Rice.png" alt="Dish 3">
+                    <h3>Jollof Rice</h3>
+                    <p>₦1,000</p>
+                </div>
+                <!-- Food Item 4 -->
+                <div class="grid-item">
+                    <img src="Image/Yamarita (yam chips_fries) with pepper sauce   If….png" alt="Dish 3">
+                    <h3>Yamarita</h3>
+                    <p>₦1,000</p>
+                </div>
+
+
+                <!--Protein Section-->
+                <div class="grid-item">
+                    <img src="Image/Chicken.png" alt="Dish 1">
+                    <h3>Chicken </h3>
+                    <p> ₦1,500</p>
+                </div>
+                <!-- Protein Item 2 -->
+                <div class="grid-item">
+                    <img src="Image/Turkey.png" width="800px" height="600px" alt="Dish 2">
+                    <h3>Turkey</h3>
+                    <p>₦2,500</p>
+                </div>
+                <!-- Protein Item 3 -->
+                <div class="grid-item">
+                    <img src="Image/Fish.png" alt="Protein 3">
+                    <h3>Fish</h3>
+                    <p>₦800</p>
+                </div>
+                <!-- Protein Item 4 -->
+                <div class="grid-item">
+                    <img src="Image/Meat.png" alt="Protein 3">
+                    <h3>Beef</h3>
+                    <p>₦1,000</p>
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- Drink Item 1 -->
+                <div class="grid-item">
+                    <img src="Image/Coca Cola.png" alt="Drink 1">
+                    <h3>Coca Cola</h3>
+                    <p>₦1,000</p>
+                </div>
+                <!-- Drink Item 2 -->
+                <div class="grid-item">
+                    <img src="Image/Fanta.png" width="100px" height="100px" alt="Drink 2">
+                    <h3>Fanta</h3>
+                    <p>₦1,000</p>
+                </div>
+                <!-- Drink Item 3 -->
+                <div class="grid-item">
+                    <img src="Image/Hollandia.png" width="100px" height="100px" alt="Drink 2">
+                    <h3>Hollandia</h3>
+                    <p>₦1,500</p>
+                </div>
+                <!-- Drink Item 4 -->
+                <div class="grid-item">
+                    <img src="Image/Color Block Fabric Water Bottle Holder Sewing Tutorial.png" width="100px" height="100px" alt="Drink 2">
+                    <h3>Bottle Water</h3>
+                    <p>₦500</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="Image/Beans.png" alt="Dish 1">
+                <img src="Image/Fried Rice.png" alt="Dish 2">
+                <img src="Image/Spagetti G.png" alt="Dish 3">
+                <img src="Image/Yamarita (yam chips_fries) with pepper sauce   If….png" alt="Drink 1">
+                <img src="Image/Sausage and Tomato Pasta.png" alt="Drink 2">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Address: EKSU, Faculty of Engineering</p>
+            <p>Phone: +2347069248829 </p>
+            <p>Email: eaterybellonisplace.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Designed by Amex Team. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
